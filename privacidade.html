@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="pt-br">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacidade do Viraliza AI</title>
+<style>
+:root{
+  --bg:#faf9f7; --fg:#201d1a; --muted:#6b645c; --card:#ffffff; --line:#e8e3dc; --accent:#c8392b;
+}
+@media (prefers-color-scheme: dark){
+  :root:not([data-theme="light"]){ --bg:#17130f; --fg:#f1ece4; --muted:#b2a99d; --card:#211c17; --line:#352e26; --accent:#ff6a52; color-scheme:dark; }
+}
+:root[data-theme="dark"]{ --bg:#17130f; --fg:#f1ece4; --muted:#b2a99d; --card:#211c17; --line:#352e26; --accent:#ff6a52; color-scheme:dark; }
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--fg);font-family:'Inter',system-ui,sans-serif;line-height:1.6;
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));
+  padding-block:32px;}
+link{display:none}
+main{max-width:720px;margin:0 auto}
+h1{font-family:'Space Grotesk',system-ui,sans-serif;font-size:2rem;margin:0 0 4px}
+.sub{color:var(--muted);font-size:.95rem;margin:0 0 32px}
+section{background:var(--card);border:1px solid var(--line);border-radius:12px;padding:20px 24px;margin-bottom:16px}
+h2{font-family:'Space Grotesk',system-ui,sans-serif;font-size:1.15rem;margin:0 0 10px;color:var(--accent)}
+p,li{color:var(--fg)}
+ul{margin:8px 0;padding-left:20px}
+a{color:var(--accent)}
+footer{color:var(--muted);font-size:.85rem;margin-top:24px;text-align:center}
+</style>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Space+Grotesk:wght@600;700&display=swap">
+</head>
+<body>
+<main>
+<h1>Política de Privacidade</h1>
+<p class="sub">Viraliza AI — última atualização: 24 de novembro de 2026</p>
+
+<section>
+<h2>O que é o Viraliza AI</h2>
+<p>O Viraliza AI é um programa que roda no computador da própria pessoa que grava suas lives/vídeos.
+Ele ajuda a cortar, editar e publicar vídeos curtos nas redes sociais do próprio usuário (YouTube,
+TikTok e outras). Não existe um servidor central: tudo roda localmente, no PC de quem usa.</p>
+</section>
+
+<section>
+<h2>Quais dados o app acessa</h2>
+<ul>
+<li>Vídeos e imagens que a própria pessoa escolhe editar, guardados no computador dela.</li>
+<li>Quando a pessoa conecta uma conta (YouTube, TikTok), o app recebe um token de autorização
+(OAuth) só para publicar os vídeos que ela mesma escolher, na própria conta dela.</li>
+<li>Informações básicas de perfil da conta conectada (nome do canal/usuário), usadas só para
+mostrar na tela de quem está conectado.</li>
+</ul>
+</section>
+
+<section>
+<h2>Onde esses dados ficam guardados</h2>
+<p>Tudo fica salvo só no computador da pessoa que usa o programa, em arquivos locais. Nada é
+enviado para servidores nossos — o Viraliza AI não tem servidor próprio guardando esses dados.
+As chamadas às APIs (YouTube, TikTok) saem direto do computador do usuário para o Google/TikTok.</p>
+</section>
+
+<section>
+<h2>Com quem os dados são compartilhados</h2>
+<p>Com ninguém. O app não vende, não envia e não compartilha dados com terceiros. Os únicos
+destinos dos dados são os próprios serviços que a pessoa conectou (por exemplo, o YouTube recebe o
+vídeo que ela mandou publicar lá).</p>
+</section>
+
+<section>
+<h2>Como revogar o acesso</h2>
+<p>A qualquer momento, a pessoa pode desconectar uma conta direto no Viraliza AI, ou revogar o
+acesso do app pela própria plataforma (por exemplo, em
+<a href="https://myaccount.google.com/permissions" target="_blank" rel="noopener">myaccount.google.com/permissions</a>
+para o Google, ou nas configurações de apps conectados do TikTok).</p>
+</section>
+
+<section>
+<h2>Contato</h2>
+<p>Dúvidas sobre esta política podem ser enviadas pelos canais públicos do desenvolvedor:
+<a href="https://twitch.tv/sopassoraiva96" target="_blank" rel="noopener">twitch.tv/sopassoraiva96</a> ·
+<a href="https://www.tiktok.com/@spr96" target="_blank" rel="noopener">tiktok.com/@spr96</a></p>
+</section>
+
+<footer>Viraliza AI</footer>
+</main>
+</body>
+</html>
